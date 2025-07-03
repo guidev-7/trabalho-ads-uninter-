@@ -1,0 +1,54 @@
+                .meutitulo{text-align: center;}
+                        h1.meutitulo{color: blue;}
+
+                #mensagembutton{
+                     margin-top: 10px;
+                     margin-left: 5px;
+                     color: rgb(0, 0, 0);
+                                            } 
+
+                #mybutton {
+                     border-radius: 90px;   
+                     background-color: rgba(201, 37, 37, 0.925) ;
+                     color: rgba(255, 255, 255, 0.829);
+                                                            }                       
+          
+
+                #imagem1{
+                    border-radius: 30px 60px;
+                                                }
+                #imagem2{
+                    border-radius: 30px;
+                    width: 300px;
+                    margin: 80px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    margin-right: -180px;
+                    margin-bottom: 20px;
+                                            }
+            body {
+                    background-color: rgb(206, 110, 209);
+                                                             } 
+                .tabelacentral{
+                        width: 40%;
+                        margin: 50px auto;
+                        border-collapse: collapse;
+                        border: 4px solid #333;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px
+                                                }
+                .nome{
+                    text-shadow: 0 0 3px;
+                    font-size: 20px;
+                                         }
+                #link {
+                    --cor-normal: blue;
+                    --cor-hover: red;
+                    color: var(--cor-normal);
+                    text-decoration: none;
+                    transition: color 0.3s;
+                                            }
+
+                #link:hover {
+                    color: var(--cor-hover);
+                                            }                    
